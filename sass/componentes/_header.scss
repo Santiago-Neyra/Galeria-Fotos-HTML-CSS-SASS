@@ -1,0 +1,42 @@
+header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 999;
+    border-bottom: solid white 1px;
+
+}
+
+.headerr{
+    background-color: black !important;
+    
+    
+    .barra-navegacion{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-item{
+        a{
+            color: #c2c2c2 !important;
+            margin: 3px;
+            font-family: avantgarde;
+            text-align: center;
+        }
+    }
+    .nav-item:hover{
+        .nav-link{
+           transform: scale(1.2);
+           
+           text-decoration-line: underline;
+           transition: 2s;
+        }
+        
+    }
+}
+.bot-menu{
+    width: 100%;
+}
+.contenedor-header{
+    width: 90%;
+    margin: auto;
+}

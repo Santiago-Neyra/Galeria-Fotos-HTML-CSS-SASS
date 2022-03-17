@@ -1,0 +1,47 @@
+.body-galeria{
+    height: 100%;
+    background-image: url(../MULTIMEDIA/curvy-narrow-muddy-road-in-dark-forest-surrounded-by-greenery-and-little-light-coming-from-above-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.galeria{
+    max-width: 90vh;
+    margin: auto;
+    
+    z-index: -10;
+    margin-top: 20px;
+   margin-bottom: 20px;
+    
+}
+.imagen-galery{
+    max-width: 100%;
+    
+}
+.imagen-galery-h{
+    margin-bottom: 10px;
+}
+.imagen-galery:hover{
+    transform: scale(1.1);
+    transition: 0.75s;
+}
+.galeria-uno{
+    height: 50%;
+}
+#header-galeria{
+    position: relative;
+}
+
+.row-2{
+    margin-top: 10px;
+}
+.titulo{
+    text-align: center;
+    font-family: avantgarde;
+    color: white;
+    font-size: 50px;
+    background-color: black;
+    border-radius: 10px;
+}
